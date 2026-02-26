@@ -10,7 +10,6 @@ public class Rectangle {
         this.upperRightX = urx;
         this.upperRightY = ury;
     }
-
     public Point getLowerLeft() {
         return new Point(lowerLeftX, lowerLeftY);
     }
