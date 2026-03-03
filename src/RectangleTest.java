@@ -4,7 +4,7 @@ import static org.junit.jupiter.api.Assertions.*;
 public class RectangleTest {
 
     @Test
-    void largerRectangle_containsInteriorPoint() {
+    void largerRectangle_containsInsidePoint() {
         assertTrue(Rectangle.LARGER.contains(10, 10));
     }
 
@@ -27,7 +27,7 @@ public class RectangleTest {
     }
 
     @Test
-    void smallerRectangle_containsInteriorAndBoundaryPoints() {
+    void smallerRectangle_containsInsideAndBoundaryPoints() {
         assertTrue(Rectangle.SMALLER.contains(10, 0));   // interior
         assertTrue(Rectangle.SMALLER.contains(7, -5));   // lower-left
         assertTrue(Rectangle.SMALLER.contains(18, 3));   // upper-right

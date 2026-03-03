@@ -35,11 +35,9 @@ public class Rectangle {
         };
     }
 
-
     public boolean contains(double x, double y) {
         return x >= lowerLeftX && x <= upperRightX
                 && y >= lowerLeftY && y <= upperRightY;
     }
 }
 
-record Point(double x, double y) {}
