@@ -25,4 +25,3 @@ public boolean contains(double x, double y) {
 }
 
 }
-record Point(double x, double y) {}
